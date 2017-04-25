@@ -486,10 +486,9 @@ a:focus {
   height: auto;
 }
 .user-panel > .info {
-  padding: 10px 5px 5px 5px;
+  padding: 10px 5px 5px 10px;
   line-height: 1;
   position: absolute;
-  left: 55px;
 }
 .user-panel > .info > p {
   font-weight: 600;
@@ -1558,6 +1557,19 @@ a:focus {
   width: 100%;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
+.boxl {
+  position: relative;
+  border-radius: 3px;
+  background: #ffffff;
+  border-left: 3px solid #d2d6de;
+  margin-bottom: 20px;
+  width: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.boxl.boxl-primary {
+  border-left-color: #3c8dbc;
+}
+
 .box.box-primary {
   border-top-color: #3c8dbc;
 }
@@ -2631,11 +2643,11 @@ a:focus {
   float: left;
 }
 .products-list .product-img img {
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
 }
 .products-list .product-info {
-  margin-left: 60px;
+  margin-left: 160px;
 }
 .products-list .product-title {
   font-weight: 600;
