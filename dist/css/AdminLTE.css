@@ -2640,11 +2640,21 @@ a:focus {
   clear: both;
 }
 .products-list .product-img {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
   float: left;
 }
 .products-list .product-img img {
-  width: 150px;
-  height: 150px;
+  position: absolute;
+  left: -100%;
+  right: -100%;
+  top: -100%;
+  bottom: -100%;
+  margin: auto;
+  height: auto;
+  width: auto;
 }
 .products-list .product-info {
   margin-left: 160px;
